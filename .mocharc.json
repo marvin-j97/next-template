@@ -1,0 +1,6 @@
+{
+  "package": "./package.json",
+  "timeout": "30000",
+  "require": ["ts-node/register"],
+  "spec": ["test/**/*.spec.ts", "test/**/*.test.ts"]
+}

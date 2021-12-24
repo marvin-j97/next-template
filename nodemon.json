@@ -1,0 +1,4 @@
+{
+  "verbose": false,
+  "ignore": ["next-env.d.ts", "composables", "components", "pages", "util", ".next"]
+}
