@@ -4,6 +4,7 @@
 
 ```
 yarn
+yarn husky install
 ```
 
 ### Dev
