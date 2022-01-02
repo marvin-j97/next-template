@@ -2,6 +2,9 @@ import { Context, Next } from "koa";
 
 import { Timer } from "../util/timer";
 
+/**
+ * Simple HTTP logger
+ */
 export async function httpLogger(ctx: Context, next: Next): Promise<void> {
   if (ctx.originalUrl.includes("_next")) {
     return await next();

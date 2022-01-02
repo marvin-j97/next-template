@@ -1,3 +1,6 @@
+/**
+ * Returns the current environment
+ */
 export function environment(): string {
   return (process.env.NODE_ENV || "undefined_env").trim();
 }

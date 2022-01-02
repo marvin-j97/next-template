@@ -10,6 +10,9 @@ export let closeNext = async (): Promise<void> => {
   console.error("Next renderer not initiated, tried to close");
 };
 
+/**
+ * Prepares Koa + Next app
+ */
 export async function createApp(): Promise<Koa> {
   const app = new Koa();
 
