@@ -971,14 +971,15 @@ caniuse-lite@^1.0.30001283, caniuse-lite@^1.0.30001286:
   version "1.0.30001299"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001299.tgz#d753bf6444ed401eb503cbbe17aa3e1451b5a68c"
 
-chai@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/chai/-/chai-4.3.4.tgz#b55e655b31e1eac7099be4c08c21964fce2e6c49"
+chai@^4.3.5:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/chai/-/chai-4.3.5.tgz#784cf398a30cd45b8980181ba1a8c866c225b5df"
   dependencies:
     assertion-error "^1.1.0"
     check-error "^1.0.2"
     deep-eql "^3.0.1"
     get-func-name "^2.0.0"
+    loupe "^2.3.0"
     pathval "^1.1.1"
     type-detect "^4.0.5"
 
@@ -2388,6 +2389,13 @@ loose-envify@^1.1.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+loupe@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/loupe/-/loupe-2.3.0.tgz#cfae54d12853592e0ec455af490fd6867e26875e"
+  dependencies:
+    get-func-name "^2.0.0"
+    type-detect "^4.0.8"
+
 lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
@@ -3539,7 +3547,7 @@ type-check@^0.4.0, type-check@~0.4.0:
   dependencies:
     prelude-ls "^1.2.1"
 
-type-detect@^4.0.0, type-detect@^4.0.5:
+type-detect@^4.0.0, type-detect@^4.0.5, type-detect@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
 
