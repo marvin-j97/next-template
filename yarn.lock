@@ -1301,22 +1301,22 @@ dot-prop@^5.1.0, dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv-cli@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/dotenv-cli/-/dotenv-cli-4.1.1.tgz#26a59fbb25876008985a15fa366b416607e8372c"
-  dependencies:
-    cross-spawn "^7.0.1"
-    dotenv "^8.1.0"
-    dotenv-expand "^5.1.0"
-    minimist "^1.1.3"
-
-dotenv-expand@^5.1.0:
+dotenv-cli@^5.1.0:
   version "5.1.0"
-  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
+  resolved "https://registry.yarnpkg.com/dotenv-cli/-/dotenv-cli-5.1.0.tgz#0d2942b089082da0157f9b26bd6c5c4dd51ef48e"
+  dependencies:
+    cross-spawn "^7.0.3"
+    dotenv "^16.0.0"
+    dotenv-expand "^8.0.1"
+    minimist "^1.2.5"
 
-dotenv@^8.1.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
+dotenv-expand@^8.0.1:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-8.0.3.tgz#29016757455bcc748469c83a19b36aaf2b83dd6e"
+
+dotenv@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.0.tgz#c619001253be89ebb638d027b609c75c26e47411"
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -2441,7 +2441,7 @@ minimist-options@4.1.0:
     is-plain-obj "^1.1.0"
     kind-of "^6.0.3"
 
-minimist@^1.1.3, minimist@^1.2.0, minimist@^1.2.5:
+minimist@^1.2.0, minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
 
